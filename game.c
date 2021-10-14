@@ -34,28 +34,28 @@ int main(){
 	switch(category){
 	
 	case 1:
-	fp = fopen("C:\\Users\\AKSHAYA\\computer.txt", "r");
+	fp = fopen("computer.txt", "r");
 	fseek(fp, (rand() % 14) * 10, SEEK_SET);
 	fgets(secret_word, 10, fp);
 	fclose(fp);	
 	break;
 	
 	case 2:
-	fp = fopen("C:\\Users\\AKSHAYA\\animals.txt", "r");
+	fp = fopen("animals.txt", "r");
 	fseek(fp, (rand() % 14) * 10, SEEK_SET);
 	fgets(secret_word, 10, fp);
 	fclose(fp);	
 	break;
 	
 	case 3:
-	fp = fopen("C:\\Users\\AKSHAYA\\food.txt", "r");
+	fp = fopen("food.txt", "r");
 	fseek(fp, (rand() % 14) * 10, SEEK_SET);
 	fgets(secret_word, 10, fp);
 	fclose(fp);	
 	break;
 	
 	case 4:
-	fp = fopen("C:\\Users\\AKSHAYA\\sports.txt", "r");
+	fp = fopen("sports.txt", "r");
 	fseek(fp, (rand() % 14) * 10, SEEK_SET);
 	fgets(secret_word, 10, fp);
 	fclose(fp);	
